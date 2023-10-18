@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    background-color: rgb(155, 127, 127);
+}
+.top{
+    background-color: orange;
+    height: 10px;
+    width: 100%;
+}
+.sun{
+    background-image: url(copy.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: repeat;
+    position: absolute;
+}
+.company{
+    color: rgb(46, 43, 43);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+.divv{
+    background-image: linear-gradient(rgb(128, 55, 55), red, yellow, orange);
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    right: 0;
+    box-shadow: -5px 5px 10px 5px orange;
+    border-bottom-left-radius: 10px;
+}
+.head{
+    background-color: rgb(196, 178, 178);
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    right: 50px;
+    top: 260px;
+    border-radius: 10px;
+
+}
+.hh{
+    display: block;
+    position: relative;
+    color: rgb(88, 31, 31);
+    padding: 10px;
+    left: 10PX;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.im{
+    /* background-image: url(mil_mi_2_attack_helicopter_silhouette_4k-1366x768.jpg); */
+    background-clip: padding-box;
+    /* background-size: cover; */
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    left: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.txt{
+    float: right;
+    padding-left: 170px;
+    padding-right: 5px;
+    word-spacing: 5px;
+}
+.welcome{
+    width: 500px;
+    height: 350px;
+    background-color: rgb(196, 178, 178);
+    top: 260px;
+    position: relative;
+    left: 300px;
+    border-radius: 10px;
+    bottom: 5px;
+}
+.hhh{
+    display: block;
+    position: relative;
+    color: rgb(88, 31, 31);
+    padding: 8px;
+    left: 10PX;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 5px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+span{
+    color: brown;
+}
+.i{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+}
+.link{
+    padding-left: 20px;
+    color: brown;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(99, 23, 23);
+}
+.lorem{
+    height: 350px;
+    width: 500px;
+    padding-left: 300px;
+    padding-top: 100px;
+    word-spacing: 10px;
+    position: absolute;
+}
+.lorem2{
+    height: 350px;
+    width: 350px;
+    padding-left: 850px;
+    padding-top: 100px;
+    word-spacing: 10px;
+}
+.end{
+    height: 60px;
+    width: 100%;
+    color: black;
+    background-color: brown;
+    position: absolute;
+}
+nav a{
+    padding: 5px;
+    text-decoration: none;
+    color: orange;
+}
+a:hover{
+    color: rgb(68, 68, 175);
+    text-decoration: underline;
+}
+.word{
+    color: rgb(71, 71, 148);
+}
+.search{
+    padding-left:20px ;
+}
+input{
+    height: 20px;
+    width: 150px;
+}
+.but{
+    height: 20px;
+}
+@media (max-width: 768px) {
+    .company {
+        left: 20px;
+    }
+
+    .divv {
+        width: 80%;
+    }
+
+    .head {
+        top: 220px;
+    }
+
+    .im {
+        width: 80%;
+        height: auto;
+        left: 10%;
+    }
+
+    .txt {
+        padding: 10px;
+    }
+
+    .welcome {
+        top: 220px;
+    }
+
+    .lorem, .lorem2 {
+        padding: 10px;
+    }
+
+    .link {
+        padding: 10px;
+    }
+}
